@@ -7,15 +7,6 @@
 #include <opencv2/objdetect.hpp>
 #include <math.h>
 #include <unordered_set>
-// #include <array>
-// #include <queue>
-
-// #define INF 1000000
-// #define ORIENTATIONS 8
-// #define CHANNELS 3
-
-// typedef unsigned char uchar;
-// static long int id = 0;
 
 struct ImageNode {
 	int id;

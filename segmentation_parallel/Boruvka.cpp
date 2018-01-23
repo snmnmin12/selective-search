@@ -24,19 +24,6 @@ int thread_id[MAX_THREADS]; // User defined id for thread
 pthread_t p_threads[MAX_THREADS];// Threads
 pthread_attr_t attr;        // Thread attributes 
 
-// pthread_mutex_t lock_min; 
-//struct Edge{
-// int first*;
-// int second*;
-// float weigh*;
-//};
-
-// struct INode {
-//     int parent;
-//     int size;
-//     float max_w;
-//     int cheapest;
-// };
 int rows;
 int cols;
 

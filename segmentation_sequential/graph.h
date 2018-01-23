@@ -6,8 +6,6 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/objdetect.hpp>
 #include <math.h>
-#include <array>
-#include <queue>
 
 #define INF 1000000
 #define ORIENTATIONS 8
@@ -17,19 +15,6 @@ typedef unsigned char uchar;
 
 static long int id = 0;
 
-// typedef unsigned char *TextureDistribution[ORIENTATIONS][CHANNELS];
-// tydedef 
-//typedef 
-// typedef struct {unsigned char elements[CHANNELS][ORIENTATIONS];} Textures;
-// typedef struct {unsigned char elements[CHANNELS];} Colors;
-
-//for efficient graph based image segmention
-// struct ImageNode {
-// 	int id;
-// 	int parent;
-// 	int children;
-// 	float max_w;
-// };
 struct ImageNode {
 	int id;
 	int parent;
